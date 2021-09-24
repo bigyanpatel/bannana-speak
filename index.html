@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Talk Banana</title>
 
     <style>
+
         textarea {
             width: 80%;
             height: 10vh;
@@ -14,10 +15,21 @@
             margin: 1rem;
             padding: 1rem;
         }
+
+        #txt-output {
+            border: 1px solid black;
+            height: 10vh;
+            width: 80%;
+            margin: 1rem;
+            padding: 1rem;
+        }
+
     </style>
 
 </head>
+
 <body>
+    
     <h1>Talk Banana</h1> 
 
     <textarea id="txt-input"
@@ -25,7 +37,9 @@
 
     <button id="btn-translate">Translate</button>
 
-    <script src="app.js">
-    </script>
+    <textarea id="txt-output" placeholder="Click translate button to see output..."></textarea>
+
+    <script src="app.js" type="text/javascript"></script>
+
 </body>
 </html>
