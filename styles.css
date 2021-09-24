@@ -1,0 +1,59 @@
+:root {
+    --primary: olive;
+    --black: #333333;
+    --width-break: 600px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Kalam', cursive;
+    color: #333333;
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+    min-height: fit-content;
+}
+
+
+nav {
+    background-color: var(--primary);
+    text-align: center;
+}
+
+textarea {
+    width: 80%;
+    height: 10vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+button {
+    background-color: var(--primary);
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-family: 'Kalam', cursive;
+    font-size: large;
+
+}
+
+#txt-output {
+    border: 1px solid black;
+    height: 10vh;
+    width: 80%;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary);
+    text-align: center;
+}
